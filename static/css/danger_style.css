@@ -1,0 +1,83 @@
+@charset "utf-8";
+* {
+  font-family: "나눔고딕", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  background: url(../img/background_1.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.header {
+  width: 1140px;
+  height: 90px;
+  margin: 0 auto;
+}
+.header h1 {
+  float: left;
+  padding-top: 28px;
+  margin-right: 25px;
+}
+.header h2 {
+  float: left;
+  line-height: 90px;
+  font-size: 20px;
+}
+.header .menu {
+  float: right;
+}
+.header .menu li {
+  float: left;
+  margin-left: 40px;
+  line-height: 90px;
+}
+.header .menu li a:hover {
+  color: #1ea4ff;
+  font-weight: bold;
+}
+
+.header {
+  color: #fff;
+}
+
+.section1 {
+  height: 654px;
+}
+
+.section1 h2 {
+  display: block;
+  padding: 95px 0 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+.section1 p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.section1 .country_list .infomenu {
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  padding-bottom: 75px;
+  margin-right: 100px;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}

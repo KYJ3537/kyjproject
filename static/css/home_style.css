@@ -1,0 +1,147 @@
+@charset "utf-8";
+* {
+  font-family: "나눔고딕", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-size: 16px;
+  color: #333;
+}
+
+.header {
+  width: 1140px;
+  height: 90px;
+  margin: 0 auto;
+}
+.header h1 {
+  float: left;
+  padding-top: 28px;
+  margin-right: 25px;
+}
+.header h2 {
+  float: left;
+  line-height: 90px;
+  font-size: 20px;
+}
+.header .menu {
+  float: right;
+}
+.header .menu li {
+  float: left;
+  margin-left: 40px;
+  line-height: 90px;
+}
+.header .menu li a:hover {
+  color: #1ea4ff;
+  font-weight: bold;
+}
+
+.section1 {
+  height: 654px;
+  background: url(../img/background_1.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.section1 h2 {
+  display: block;
+  padding: 95px 0 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+.section1 p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 75px;
+  font-weight: bold;
+}
+
+.section1 .block {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section1 .block .quick {
+  float: left;
+  width: 265px;
+  height: 270px;
+  background-color: #fff;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.section1 .block .last {
+  margin-right: 0px;
+}
+
+.section1 .quick h3 {
+  color: rgb(45, 69, 175);
+  margin: 55px 30px 30px 30px;
+  font-size: 28px;
+  background: url(../img/right-arrow.png) no-repeat right;
+}
+
+.section1 .quick h3:hover {
+  margin: 55px 30px 30px 30px;
+  font-size: 28px;
+  background: url(../img/right-arrow_over.png) no-repeat right;
+}
+.section1 .quick h3:not(:hover) {
+  margin: 55px 30px 30px 30px;
+  font-size: 28px;
+  background: url(../img/right-arrow.png) no-repeat right;
+}
+
+.section1 .quick p {
+  margin: 0 30px;
+  font-size: 18px;
+  color: rgb(78, 78, 78);
+  text-align: left;
+  letter-spacing: -2px;
+}
+
+.section2 {
+  width: 1140px;
+  margin: 0 auto;
+  
+}
+
+.section2 div {
+  width: 480px;
+  padding: 80px 0;
+  padding-right: 120px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.section2 h3 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+/*
+background: url(../img/background_2.jpg) no-repeat right;
+*/
+.section2 .intro1 {
+  margin-right: 180px;
+}
+
+.section3 {
+  width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+  color: rgb(124, 124, 124);
+}

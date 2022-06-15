@@ -1,0 +1,107 @@
+@charset "utf-8";
+* {
+  font-family: "나눔고딕", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  background: url(../img/background_1.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.header {
+  width: 1140px;
+  height: 90px;
+  margin: 0 auto;
+}
+.header h1 {
+  float: left;
+  padding-top: 28px;
+  margin-right: 25px;
+}
+.header h2 {
+  float: left;
+  line-height: 90px;
+  font-size: 20px;
+}
+.header .menu {
+  float: right;
+}
+.header .menu li {
+  float: left;
+  margin-left: 40px;
+  line-height: 90px;
+}
+.header .menu li a:hover {
+  color: #1ea4ff;
+  font-weight: bold;
+}
+
+.header {
+  color: #fff;
+}
+.section1 {
+  height: 654px;
+}
+
+.section1 h2 {
+  display: block;
+  padding: 95px 0 45px;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+.section1 .block {
+  text-align: center;
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section1 .block .infomenu {
+  float: left;
+  width: 360px;
+  height: 500px;
+  background-color: #fff;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.section1 .block .last {
+  margin-right: 0px;
+}
+
+.section1 .infomenu h1 {
+  color: rgb(45, 69, 175);
+  margin: 25px 30px 0px 30px;
+  font-size: 14px;
+}
+
+.section1 .infomenu h3 {
+  color: rgb(45, 69, 175);
+  margin: 25px 30px 0px 30px;
+  font-size: 28px;
+}
+
+.section1 .infomenu h2 {
+  margin: -50px 30px;
+  font-size: 18px;
+  color: rgb(78, 78, 78);
+  letter-spacing: -1px;
+}
